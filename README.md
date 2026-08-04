@@ -11,6 +11,9 @@ I build things to find out where they break. A regime model, a signal, a forecas
 ### [V&D Cloud — Volatility & Dispersion Regime Research](https://github.com/Telos-in-the-Void/vd-cloud)
 A clean-room research project testing whether volatility and cross-sectional dispersion can support an Ichimoku-inspired market-regime framework, across QQQ and a developed-market ETF surface. Validated with HAC/Newey-West inference, random-label permutation testing, baseline challenges, and a chronological out-of-sample holdout. Includes **Atlas Observatory**, an interactive live monitoring dashboard extending the research into day-to-day instrumentation.
 
+### [Options Positioning Research](https://github.com/Telos-in-the-Void/options-positioning-research)
+A clean-room study of longitudinal option-chain structure: schema design, wide-to-long contract normalization, engineered positioning/liquidity features, cumulative open-interest terrain, and gap-aware longitudinal visualization — validated end to end, deliberately stopping before machine learning or predictive claims.
+
 ## Skills
 
 Python (pandas, NumPy, statsmodels, scikit-learn, Plotly, matplotlib) · R · Time-series analysis · Options analytics · Statistical validation & robustness testing · Jupyter-based research workflows
