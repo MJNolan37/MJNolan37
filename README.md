@@ -1,6 +1,6 @@
 # Matthew Nolan
 
-Portfolio Evaluation Analyst with a background in trading, financial analysis, and strategic project design — currently focused on quantitative research in market regime dynamics, volatility, and dispersion.
+Independent quantitative research focused on financial markets, statistical validation, portfolio analytics, and decision-making under uncertainty.
 
 ## Research Philosophy
 
