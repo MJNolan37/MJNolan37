@@ -1,23 +1,32 @@
 # Matthew Nolan
 
-Independent quantitative research focused on financial markets, statistical validation, portfolio analytics, and decision-making under uncertainty.
-
-## Research Philosophy
-
-I build things to find out where they break. A regime model, a signal, a forecasting tool — the interesting question is never "does this look good," it's "what happens when I try to prove it wrong." The [V&D Cloud](https://github.com/MJNolan37/vd-cloud) research below is the clearest example: a coherent diagnostic framework that was pushed through baseline challenges, autocorrelation-robust inference, permutation testing, and a genuine out-of-sample holdout — and reported honestly when it didn't clear the bar for a trading signal.
+I build reproducible research tools to investigate market behavior, test hypotheses, and make uncertainty visible. My standard is simple: define the question clearly, challenge the result aggressively, and publish the limitations alongside the findings. I do this because it keeps me learning—new methods, new tools, and new ways a result can quietly be wrong.
 
 ## Featured Research
 
-### [V&D Cloud — Volatility & Dispersion Regime Research](https://github.com/MJNolan37/vd-cloud)
-A clean-room research project testing whether volatility and cross-sectional dispersion can support an Ichimoku-inspired market-regime framework, across QQQ and a developed-market ETF surface. Validated with HAC/Newey-West inference, random-label permutation testing, baseline challenges, and a chronological out-of-sample holdout. Includes **Atlas Observatory**, an interactive live monitoring dashboard extending the research into day-to-day instrumentation.
+### V&D Cloud — Volatility & Dispersion Regime Research
+**Question:** Can volatility and cross-sectional dispersion support a stable and recurring classification of market regimes?
+**Method:** HAC/Newey-West inference, random-label permutation testing, baseline challenges, and a chronological out-of-sample holdout, across QQQ and a developed-market ETF surface.
+**Finding:** Of 13 rigorously tested candidate regimes, 1 cleared both robustness bars — a result consistent with chance under multiple-comparison correction. Reported as a negative result, not reframed as a win.
+**Includes:** Atlas Observatory, an interactive single-ticker dashboard for monitoring volatility and dispersion states without making forecasting claims.
 
-### [Options Positioning Research](https://github.com/MJNolan37/options-positioning-research)
-A clean-room study of longitudinal option-chain structure: schema design, wide-to-long contract normalization, engineered positioning/liquidity features, cumulative open-interest terrain, and gap-aware longitudinal visualization — validated end to end, deliberately stopping before machine learning or predictive claims.
+[Repository](https://github.com/MJNolan37/vd-cloud) · [Live dashboard](https://mjnolan37.github.io/vd-cloud/atlas/)
 
-## Skills
+### Options Positioning Research
+**Question:** Can longitudinal option-chain data be transformed into stable, interpretable positioning features suitable for future quantitative research?
+**Method:** A documented synthetic option-chain generator anchored to a real underlying price, wide-to-long normalization, eight engineered positioning/liquidity features, and a 12-check validation suite covering both data integrity and the generator's own shape rules.
+**Status:** Engineering and validation complete; deliberately stops before prediction or trading claims.
 
-Python (pandas, NumPy, statsmodels, scikit-learn, Plotly, matplotlib) · R · Time-series analysis · Options analytics · Statistical validation & robustness testing · Jupyter-based research workflows
+[Repository](https://github.com/MJNolan37/options-positioning-research)
 
-## More
+## Methods & Tools
 
-The full project portfolio — including applied research in options positioning, macro liquidity forecasting, and other work — lives at [github.com/MJNolan37/Portfolio](https://github.com/MJNolan37/Portfolio).
+Methods: HAC/Newey-West inference · random-label permutation testing · chronological out-of-sample validation · baseline challenges · synthetic-data generation · schema and integrity testing
+
+Tools: Python · pandas · NumPy · statsmodels · scikit-learn · Plotly · Matplotlib · Jupyter · Git
+
+All published work is independently developed using public or synthetic data.
+
+## Portfolio Index
+
+Additional context and navigation across the published projects are available in the [Portfolio index](https://github.com/MJNolan37/Portfolio).
