@@ -4,6 +4,7 @@
 
 1. [V&D Cloud](https://github.com/MJNolan37/vd-cloud) — the most complete evidence path: question, tests, negative result, and Atlas.
 2. [Project Parallax](https://github.com/MJNolan37/Project-Parallax) — research judgment and staged execution: coverage gate, preregistration, and an audit finding turned into a regression test.
+3. [Options Positioning Research](https://github.com/MJNolan37/options-positioning-research) — synthetic-chain engineering with explicitly scoped validation and gap-aware descriptive charts.
 
 I build reproducible research tools to investigate market behavior, test hypotheses, and make uncertainty visible. My standard is simple: define the question clearly, challenge the result aggressively, and publish the limitations alongside the findings. I do this because it keeps me learning—new methods, new tools, and new ways a result can quietly be wrong.
 
@@ -20,7 +21,7 @@ I build reproducible research tools to investigate market behavior, test hypothe
 ### Options Positioning Research
 **Question:** Can longitudinal option-chain data be transformed into stable, interpretable positioning features suitable for future quantitative research?
 **Method:** A documented synthetic option-chain generator anchored to a real underlying price, wide-to-long normalization, eight engineered positioning/liquidity features, and a 12-check validation suite covering both data integrity and the generator's own shape rules.
-**Status:** Engineering and validation complete; deliberately stops before prediction or trading claims.
+**Status:** The saved 2026-07-20 synthetic single-snapshot report (2,090 contracts) records 10 pass, 2 informational, 0 fail. The 65-date series has descriptive analysis, but no published full-series 12-check report. See the [named saved-output summary](https://github.com/MJNolan37/options-positioning-research/blob/main/results/published_check_summary.json). No predictive or trading claim.
 
 [Repository](https://github.com/MJNolan37/options-positioning-research)
 
