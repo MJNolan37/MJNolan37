@@ -5,9 +5,9 @@ I build reproducible research tools to investigate market behavior, test hypothe
 ## Featured Research
 
 ### V&D Cloud — Volatility & Dispersion Regime Research
-**Question:** Can volatility and cross-sectional dispersion support a stable and recurring classification of market regimes?
-**Method:** HAC/Newey-West inference, random-label permutation testing, baseline challenges, and a chronological out-of-sample holdout, across QQQ and a developed-market ETF surface.
-**Finding:** Of 13 rigorously tested candidate regimes, 1 cleared both robustness bars — a result consistent with chance under multiple-comparison correction. Reported as a negative result, not reframed as a win.
+**Question:** Can the Ichimoku cloud's regime logic work on volatility and dispersion instead of price?
+**Method:** HAC/Newey-West inference, permutation diagnostics, simple-baseline comparisons, and retrospective chronological stability analysis, across QQQ and a developed-market ETF surface.
+**Finding:** The revised analysis did not establish predictive validity or a consistent advantage over simpler baselines. The [canonical evidence table](https://github.com/MJNolan37/vd-cloud#verified-revised-results) separates exploratory threshold crossings from validated findings. No selection or multiplicity correction was applied; the later period was retrospective, not an untouched holdout.
 **Includes:** Atlas Observatory, an interactive single-ticker dashboard for monitoring volatility and dispersion states without making forecasting claims.
 
 [Repository](https://github.com/MJNolan37/vd-cloud) · [Live dashboard](https://mjnolan37.github.io/vd-cloud/atlas/)
@@ -21,7 +21,7 @@ I build reproducible research tools to investigate market behavior, test hypothe
 
 ## Methods & Tools
 
-Methods: HAC/Newey-West inference · random-label permutation testing · chronological out-of-sample validation · baseline challenges · synthetic-data generation · schema and integrity testing
+Methods: HAC/Newey-West inference · random-label permutation testing · retrospective chronological stability analysis · baseline challenges · synthetic-data generation · schema and integrity testing
 
 Tools: Python · pandas · NumPy · statsmodels · scikit-learn · Plotly · Matplotlib · Jupyter · Git
 
