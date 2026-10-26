@@ -16,7 +16,7 @@ I build reproducible research tools to investigate market behavior, test hypothe
 **Finding:** The revised analysis did not establish predictive validity or a consistent advantage over simpler baselines. The [canonical evidence table](https://github.com/MJNolan37/vd-cloud#verified-revised-results) separates exploratory threshold crossings from validated findings. No selection or multiplicity correction was applied; the later period was retrospective, not an untouched holdout.
 **Includes:** Atlas Observatory, an interactive single-ticker dashboard for monitoring volatility and dispersion states without making forecasting claims.
 
-[Repository](https://github.com/MJNolan37/vd-cloud) · [Live dashboard](https://mjnolan37.github.io/vd-cloud/atlas/)
+[Repository](https://github.com/MJNolan37/vd-cloud) · [Live dashboard](https://mjnolan37.github.io/vd-cloud/)
 
 ### Options Positioning Research
 **Question:** Can longitudinal option-chain data be transformed into stable, interpretable positioning features suitable for future quantitative research?
