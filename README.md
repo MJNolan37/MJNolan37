@@ -46,3 +46,6 @@ Tools: Python · pandas · NumPy · statsmodels · scikit-learn · Plotly · Mat
 
 The research projects use public or synthetic data. AI tools assist with coding and review; I own the research questions, methodological decisions and final interpretations.
 
+## License
+
+Copyright © 2026 Matthew Nolan (MJNolan37). Except where otherwise noted, the original text and diagrams in this repository are licensed under [CC BY 4.0](LICENSE). Linked repositories, external material and third-party assets retain their own licenses and terms.
